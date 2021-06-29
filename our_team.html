@@ -1,0 +1,908 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
+		rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Fontawesome Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- slick slider CSS-->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+	<!-- Animate Css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+
+	<header class="fixed-top">
+		<div class="container">
+			<div class="navbar-logo">
+				<a href="index.html">
+					<img src="assets/images/logo.png" alt="Tower Wealth Partners" />
+				</a>
+			</div>
+			<div class="col-lg-8 pull-right close-menu-res">
+				<div class="row">
+					<div class="navbar-right-top">
+						<ul class="nav-items">
+							<li class="client-access-dropdown">
+								<a href="javascript:void(0);" class="btn standard-btn">Client Access</a>
+								<div class="dropdown-nav-items">
+									<ul>
+										<li><a href="https://login.bdreporting.com/Auth/SignIn" target="_blank" style="padding: 16px 0px;">Black Diamond</a></li>
+										<li><a href="https://clientaccess.rjf.com/" target="_blank" style="padding: 16px 0px;">Rj Client Access</a></li>
+										<li><a href="javascript:void(0);" style="padding: 16px 0px;">MoneyGuide</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="resources-dropdown">
+								<a href="javascript:void(0);">Resources</a>
+								<div class="dropdown-nav-items">
+									<ul>
+										<li><a href="Plan_well_invest_well_live_well.html" style="padding: 12px 6px;">Plan well, Invest well, live well</a></li>
+										<li><a href="financial_calculators.html">Financial calculators</a></li>
+										<li><a href="blog.html">Items of Interest</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-right-bottom">
+						<ul class="nav-items">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li class="who_we_server-dropdown">
+								<a href="who_we_serve.html">Who We Serve</a>
+								<div class="dropdown-nav-items">
+									<ul>
+										<li><a href="business_owners.html">Business Owners</a></li>
+										<li><a href="professionals_and_executives.html">Professionals & Executives</a></li>
+										<li><a href="family_and_individuals.html">Families & Individuals</a></li>
+										<li><a href="healthcare_professionals.html">Healthcare Professionals</a></li>
+										<li><a href="retirees.html" style="line-height: 36px;">Retirees</a></li>
+										<li><a href="sudden_wealth.html">Sudden Wealth</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="who_we_are">
+								<a href="javascript:void(0);">Who We Are</a>
+								<div class="dropdown-nav-items">
+									<ul>
+										<li><a href="our_firm.html" style="padding-top: 16px;">Our Firm</a></li>
+										<li><a href="our_team.html" style="padding-top: 16px;">Our Team</a></li>
+										<li><a href="our_community.html">Our Community</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="4d_method.html">Tower Wealth 4D Method</a>
+							</li>
+							<li>
+								<a href="contact_us.html">Contact us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="open-menu-res">
+				<div class="mobile-menu">
+					<a class="menu-click" href="javascript:void(0);">
+						<i class="fa fa-bars"></i>
+						<i class="fa fa-times"></i>
+					</a>
+				</div>
+			</div>
+			<div class="open-mobile-menu" style="display: none;">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="who_we_serve.html">Who we serve</a>
+						<span id="sub-menu1"><i class="fa fa-angle-down"></i></span>
+						<div class="mobile-sub-menu" id="open-sub-menu1">
+							<ul>
+								<li><a href="business_owners.html">Business Owners</a></li>
+								<li><a href="professionals_and_executives.html">Professionals & Executives</a></li>
+								<li><a href="family_and_individuals.html">Families & Individuals</a></li>
+								<li><a href="healthcare_professionals.html">Healthcare Professionals</a></li>
+								<li><a href="retirees.html">Retirees</a></li>
+								<li><a href="sudden_wealth.html">Sudden Wealth</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="sub-menu-2">Who We Are</a>
+						<div class="mobile-sub-menu" id="open-sub-menu2">
+							<ul>
+								<li><a href="our_firm.html">Our Firm</a></li>
+								<li><a href="our_team.html">Our Team</a></li>
+								<li><a href="our_community.html">Our Community</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="4d_method.html">Tower Wealth 4D Method</a>
+					</li>
+					<li>
+						<a href="contact_us.html">Contact us</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="sub-menu-3">Resources</a>
+						<div class="mobile-sub-menu" id="open-sub-menu3">
+							<ul>
+								<li><a href="Plan_well_invest_well_live_well.html">Plan well, Invest well live well</a></li>
+								<li><a href="financial_calculators.html">Financial calculators</a></li>
+								<li><a href="blog.html">Items of Interest</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="sub-menu-4">Client Access</a>
+						<div class="mobile-sub-menu" id="open-sub-menu4">
+							<ul>
+								<li><a href="https://login.bdreporting.com/Auth/SignIn" target="_blank">Black Diamond</a></li>
+								<li><a href="https://clientaccess.rjf.com/" target="_blank">Rj client Access</a></li>
+								<li><a href="javascript:void(0);">MoneyGuide</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section>
+			<div class="page-banner-image">
+				<img src="assets/images/Our_team-banner.png" alt="Our Firm" />
+				<div class="page-banner-content">
+					<!-- <div class="banner-bg"></div> -->
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<h1 class=" Post-title main-title mt-5 mb-5">Let Our Team become Your Team</h1>
+				<div class="mobile-hide-tabs">
+					<div class="our-team-info-slider slider slider-for">
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-1">
+								<h4 class="section-top-title">Your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/darin.png" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Darin Koss, CFP®, AAMS®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<h4>Managing Partner, Tower Wealth Partners</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>With a focus on the big picture as well as all the details, Darin helps our clients and their families develop a clear understanding of what money means to them, so they can put together a plan and strategy to accomplish their goals.</p>
+										<p>Drawing on the leadership skills and financial acumen developed since 1991 as his clients’ trusted advisor, he established Koss Financial Group, now Tower Wealth Partners, in 2005, and serves as its managing partner and senior financial advisor.</p>
+										<p>Darin is a graduate of the University of Michigan at Ann Arbor with a Bachelor of Science degree in finance and marketing. He also holds the Accredited Asset Management Specialist℠ designation from the College for Financial Planning and is a CERTIFIED FINANCIAL PLANNER™ Professional. Darin was named to the 2020 edition of the Forbes Best in State Wealth Advisors list†</p>
+										<p>A firm believer in giving back to the community, Darin has served on the boards of Young Life, Expectations Women’s Center, local radio station WGRC, and the Union County Red Cross. He and his family have been actively involved in their church’s music programs, missions, youth and college ministries.</p>
+										<p>Darin and his wife Lisa live in Lewisburg. They have four children—Adam, Haley, Chelsea and Hannah—all out of the house –and have 3 grandchildren. An avid music lover, Darin also enjoys travel and all types of sports—golf, lifting weights, running, biking, basketball and football and of course- great food and drinks!</p>
+										<p><span>† The Forbes ranking of Best-In-State Wealth Advisors, developed by SHOOK Research, is based on an algorithm of qualitative criteria, mostly gained through telephone and in-person due diligence interviews, and quantitative data. Those advisors that are considered have a minimum of seven years of experience, and the algorithm weights factors like revenue trends, assets under management, compliance records, industry experience and those that encompass best practices in their practices and approach to working with clients. Portfolio performance is not a criteria due to varying client objectives and lack of audited data. Out of approximately 32,000 nominations, more than 4,000 advisors received the award. This ranking is not indicative of advisor’s future performance, is not an endorsement, and may not be representative of individual clients’ experience. Neither Raymond James nor any of its Financial Advisors or RIA firms pay a fee in exchange for this award/rating. Raymond James is not affiliated with Forbes or Shook Research, LLC. Please visit https://www.forbes.com/best-in-state-wealth-advisors for more info.</span></p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-2">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jared.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jared Koh, RICP®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<h4>Partner, Tower Wealth Partners</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Jared makes certain each of our alients knows he has clearly heard their most important thoughts and concerns about their future. He leads them through difficult discussions and helps them, for xample, to discuss and define what their vision of retirement looks like, and asks each spouse to describe what they think their retirement s.uld look like. For many couples. this may be the first time they have ever had this kind of conversation, enabling them to think about the possibilities and build that vision together.</p>
+										<p>Originally from the Northumberland, Point Township community. tared grew up as a member of the 4th generation of Furman° Food, Inc He graduated from The Pennsylvania Stem University and started his financial services career with AIG SunArnerica Securities in 2001 in the Pittsburgh rea. In 2003, he moved to Richmond. VA and in just two years was able to open an office, Creative Financial Designs. It was during this time in Richmond that Jared met his beautiful wife, Tracss In 2006 they returned to Pennsylvania to join Koss Financial Group, now Tower Wealth Partners.</p>
+										<p>Jared and Tracy reside In Lewisburg with their four children—Alivia. tack. Logan. and Meredith. Jared Currently serves as the vice prssitlent of the Greater Susquehanna Valley Penn Ssste Alumni Chap., and alma deacon at Reformed Baptist Church of Lewisburg. Jared is an avid fan and supporter of Penn State and enjoys all sports. especially golf, football and basketball.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-3">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Haley.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Haley Koss, AAMS®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Haley has an eye for the detailL and a constant desire to learn and develop the knowledge to help clients design a financial plan that allows them to achieve their goals. Her strong suit Is her ability to take the more complex concep. inherent to this industry and break them down to deliver a more simplified yet impactful solution for each clients unique situation.</p>
+										<p>Haley graduated from the University of Pittsburgh in 2015. with a B.S. degree in Finance and Accounting, and a certificate in International Business. she decided . move back to the area from Nashville. TN in 2019 to join the team as the newest wealth management advisor.</p>
+										<p>Bom and raised here in Lewisburg, Haley now lives downtown with her golden retriever, Penny and is looking for different ways to get involved in the local communities. The things she enjoys most are spending time with family, all things health and wellness, learning new languages, and traveling the world any chance she gets.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-4">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jim.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jim Thomas, CIMA®</h1>
+										<h4>Research & Trading specialist</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Jim's careful attention to detail and strong analytical and organizational skills serve our clients well, although most of his work is done behind the scenes. His areas of focus include constructing and monitoring our clients' portfolios, leading and providing research and analysis for our Investment Committee, and carefully managing the daily inflows and distributions in our clients' accounts.</p>
+										<p>After completing his bachelor's degree in mechanical engineering from Kettering University in Flint, MI, Jim earned his master's in engineering from the University of Michigan in Ann Arbor. He developed his analytical skills during more than 20 years In the automotive industry before relocating from Michigan to Pennsylvania to join Koss Financial Group, now Tower Wealth Partners.</p>
+										<p>Jim and his wife Jennifer live in Lewisburg, where they enjoy the small-town charm and the natural beauty the area has to offer. They have four grown children—Justin, daughter Jordan, and twin daughters Jenna and Julia. Jim sings at church and plays drums, is Involved in the local Young Life chapter, enjoys an occasional round of golf and biking, and will interrupt most activities to watch University of Michigan football. Go Blue!</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-5">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Tara.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Tara Evans</h1>
+										<h4>Client services Advocate</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Tara joined Koss Financial Group/Tower Wealth Partners in the summer of 2000, after having worked previously as an RN in oncology and hospice. She is the office extrovert and loves getting to know our clients, and long before we had caller ID, she could readily identify a lot of our clients by the sound of their voice. She aims to give personalized attention with her ability to recall details about our clients' lives.</p>
+										<p>Tara helps maintain our client database, and besides opening and maintaining accounts, she is active in assisting clients with the set up and maintenance of income disbursements, the transferring of assets, and the set up of client appointments. She especially enjoys researching things for clients like the history of asset ownership.</p>
+										<p>Central Pa has been her home for over 28 years, with 14 of those years in Lewisburg. While not at the office, she enjoys reading, music, church, and spending time with her husband Ravi and daughter Renna, and of course her 3 cats.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-6">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Lisa.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Lisa Rider</h1>
+										<h4>Client Services Coordinator</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Appreciated for her initiative and organizational skills, Lisa keeps our clients' information updated, and assists them in setting up online access to their accounts. She particularly enjoys interacting with our clients and paying attention to what is going on in their lives.</p>
+										<p>With a background in human resources, payroll and technology, Lisa joined Koss Financial Group in 2004. She is an important member of our client services team, working with the home office to stay up-to-date with compliance operational issues.</p>
+										<p>Lisa lives in Selinsgrove with her husband Dale. She enjoys spending time with her family, including her three children—Brianna, Brett and Jake; and loves to travel.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-7">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jen.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jen Thomas</h1>
+										<h4>Paraplanner</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>As our paraplanner and data manager, Jennifer helps put together and maintain our clients' investment plans, keeping up with any changes in our clients' needs and goal. She also makes certain that all information is saved and stored appropriately in our database and manages our client communications.</p>
+										<p>Jennifer joined Koss Financial Group, now Tower Wealth Partners, in November 2007 after having moved to Lewisburg from her native Michigan. She attended Kettering University in Flint, Michigan, where she studied mechanical engineering.</p>
+										<p>Jennifer and husband Jim are parents to son Justin, daughter Jordan, and twin daughters Jenne and Julia. Jennifer enjoys the outdoors, gardening, biking, boot camp-style workouts and reading. She is active in her church's music ministry and serves on the local area Young Life committee.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-8">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Bev.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Bev Swinehart</h1>
+										<h4>Client Services Associate</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Beverly Swinehart is a well experienced client service associate that recently joined our team. She comes to us from another investment firm and also has over 35 years of experience working with a local accounting firm. She has an A.S.B. degree in Accounting from Thompson Institute.</p>
+										<p>Bev and her husband live in the Lewisburg area. They enjoy doing things outdoors together.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div>
+							<div class="team-members-main-slide bg-white" id="member-9">
+								<h4 class="section-top-title">your Team</h4>
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Ron.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Ron Dreese</h1>
+										<h4>TBD - Designations and Title</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+									</div>
+									<div class="team-members-info">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta in urna sit amet feugiat. Donec mattis nulla sit amet est consequat varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis posuere, sem vitae porttitor malesuada, augue nibh pulvinar augue, tincidunt eleifend risus nisi vitae leo. Sed ut arcu eget enim maximus finibus et sed nisl. Aliquam ullamcorper, tellus non dapibus consectetur, dui nibh pellentesque nisi, vitae cursus enim nunc pellentesque turpis. Phasellus sit amet ante eleifend tellus congue eleifend vel quis neque. Aenean nec eleifend tellus, sit amet eleifend lacus. Curabitur iaculis est volutpat lacinia convallis. Sed rutrum metus non mi ultrices, eget vulputate tellus ullamcorper. Praesent eget quam cursus, interdum metus et, rhoncus nulla.</p>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="our-team-nav slider slider-nav">
+						<div>
+							<img src="assets/images/darin.png" alt="Team member" id="member1"/>
+						</div>
+						<div>
+							<img src="assets/images/Jared.jpg" alt="Team member" id="member2" />
+						</div>
+						<div>
+							<img src="assets/images/Haley.jpg" alt="Team member" id="member3"/>
+						</div>
+						<div>
+							<img src="assets/images/Jim.jpg" alt="Team member" id="member4" />
+						</div>
+						<div>
+							<img src="assets/images/Tara.jpg" alt="Team member" id="member5" />
+						</div>
+						<div>
+							<img src="assets/images/Lisa.jpg" alt="Team member" id="member6" />
+						</div>
+						<div>
+							<img src="assets/images/Jen.jpg" alt="Team member" id="member7" />
+						</div>
+						<div>
+							<img src="assets/images/Bev.jpg" alt="Team member" id="member8"/>
+						</div>
+						<div>
+							<img src="assets/images/Ron.jpg" alt="Team member" id="member9" />
+						</div>
+					</div>
+				</div>
+				<!-- Mobile Team slides -->
+
+				<div class="mobile-show-tabs">
+					<h4 class="section-top-title">Your Team</h4>
+					<ul class="mobile-our-team">
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/darin.png" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Darin Koss, CFP®, AAMS®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<h4>Managing Partner</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>With a focus on the big picture as well as all the details, Darin helps our clients and their families develop a clear understanding of what money means to them, so they can put together a plan and strategy to accomplish their goals.</p>
+									<p>Drawing on the leadership skills and financial acumen developed since 1991 as his clients’ trusted advisor, he established Koss Financial Group, now Tower Wealth Partners, in 2005, and serves as its managing partner and senior financial advisor.</p>
+									<p>Darin is a graduate of the University of Michigan at Ann Arbor with a Bachelor of Science degree in finance and marketing. He also holds the Accredited Asset Management Specialist℠ designation from the College for Financial Planning and is a CERTIFIED FINANCIAL PLANNER™ Professional. Darin was named to the 2020 edition of the Forbes Best in State Wealth Advisors list†</p>
+									<p>A firm believer in giving back to the community, Darin has served on the boards of Young Life, Expectations Women’s Center, local radio station WGRC, and the Union County Red Cross. He and his family have been actively involved in their church’s music programs, missions, youth and college ministries.</p>
+									<p>Darin and his wife Lisa live in Lewisburg. They have four children—Adam, Haley, Chelsea and Hannah—all out of the house –and have 3 grandchildren. An avid music lover, Darin also enjoys travel and all types of sports—golf, lifting weights, running, biking, basketball and football and of course- great food and drinks!</p>
+									<p><span>† The Forbes ranking of Best-In-State Wealth Advisors, developed by SHOOK Research, is based on an algorithm of qualitative criteria, mostly gained through telephone and in-person due diligence interviews, and quantitative data. Those advisors that are considered have a minimum of seven years of experience, and the algorithm weights factors like revenue trends, assets under management, compliance records, industry experience and those that encompass best practices in their practices and approach to working with clients. Portfolio performance is not a criteria due to varying client objectives and lack of audited data. Out of approximately 32,000 nominations, more than 4,000 advisors received the award. This ranking is not indicative of advisor’s future performance, is not an endorsement, and may not be representative of individual clients’ experience. Neither Raymond James nor any of its Financial Advisors or RIA firms pay a fee in exchange for this award/rating. Raymond James is not affiliated with Forbes or Shook Research, LLC. Please visit https://www.forbes.com/best-in-state-wealth-advisors for more info.</span></p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jared.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jared Koh, RICP®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<h4>Partner</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Jared makes certain each of our alients knows he has clearly heard their most important thoughts and concerns about their future. He leads them through difficult discussions and helps them, for xample, to discuss and define what their vision of retirement looks like, and asks each spouse to describe what they think their retirement s.uld look like. For many couples. this may be the first time they have ever had this kind of conversation, enabling them to think about the possibilities and build that vision together.</p>
+									<p>Originally from the Northumberland, Point Township community. tared grew up as a member of the 4th generation of Furman° Food, Inc He graduated from The Pennsylvania Stem University and started his financial services career with AIG SunArnerica Securities in 2001 in the Pittsburgh rea. In 2003, he moved to Richmond. VA and in just two years was able to open an office, Creative Financial Designs. It was during this time in Richmond that Jared met his beautiful wife, Tracss In 2006 they returned to Pennsylvania to join Koss Financial Group, now Tower Wealth Partners.</p>
+									<p>Jared and Tracy reside In Lewisburg with their four children—Alivia. tack. Logan. and Meredith. Jared Currently serves as the vice prssitlent of the Greater Susquehanna Valley Penn Ssste Alumni Chap., and alma deacon at Reformed Baptist Church of Lewisburg. Jared is an avid fan and supporter of Penn State and enjoys all sports. especially golf, football and basketball.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Haley.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Haley Koss, AAMS®</h1>
+										<h4>Wealth Management Advisor</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Haley has an eye for the detailL and a constant desire to learn and develop the knowledge to help clients design a financial plan that allows them to achieve their goals. Her strong suit Is her ability to take the more complex concep. inherent to this industry and break them down to deliver a more simplified yet impactful solution for each clients unique situation.</p>
+									<p>Haley graduated from the University of Pittsburgh in 2015. with a B.S. degree in Finance and Accounting, and a certificate in International Business. she decided . move back to the area from Nashville. TN in 2019 to join the team as the newest wealth management advisor.</p>
+									<p>Bom and raised here in Lewisburg, Haley now lives downtown with her golden retriever, Penny and is looking for different ways to get involved in the local communities. The things she enjoys most are spending time with family, all things health and wellness, learning new languages, and traveling the world any chance she gets.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jim.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jim Thomas, CIMA®</h1>
+										<h4>Research & Trading specialist</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Jim's careful attention to detail and strong analytical and organizational skills serve our clients well, although most of his work is done behind the scenes. His areas of focus include constructing and monitoring our clients' portfolios, leading and providing research and analysis for our Investment Committee, and carefully managing the daily inflows and distributions in our clients' accounts.</p>
+									<p>After completing his bachelor's degree in mechanical engineering from Kettering University in Flint, MI, Jim earned his master's in engineering from the University of Michigan in Ann Arbor. He developed his analytical skills during more than 20 years In the automotive industry before relocating from Michigan to Pennsylvania to join Koss Financial Group, now Tower Wealth Partners.</p>
+									<p>Jim and his wife Jennifer live in Lewisburg, where they enjoy the small-town charm and the natural beauty the area has to offer. They have four grown children—Justin, daughter Jordan, and twin daughters Jenna and Julia. Jim sings at church and plays drums, is Involved in the local Young Life chapter, enjoys an occasional round of golf and biking, and will interrupt most activities to watch University of Michigan football. Go Blue!</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Tara.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Tara Evans</h1>
+										<h4>Client services Advocate</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Tara joined Koss Financial Group/Tower Wealth Partners in the summer of 2000, after having worked previously as an RN in oncology and hospice. She is the office extrovert and loves getting to know our clients, and long before we had caller ID, she could readily identify a lot of our clients by the sound of their voice. She aims to give personalized attention with her ability to recall details about our clients' lives.</p>
+									<p>Tara helps maintain our client database, and besides opening and maintaining accounts, she is active in assisting clients with the set up and maintenance of income disbursements, the transferring of assets, and the set up of client appointments. She especially enjoys researching things for clients like the history of asset ownership.</p>
+									<p>Central Pa has been her home for over 28 years, with 14 of those years in Lewisburg. While not at the office, she enjoys reading, music, church, and spending time with her husband Ravi and daughter Renna, and of course her 3 cats.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Lisa.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Lisa Rider</h1>
+										<h4>Client Services Coordinator</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Appreciated for her initiative and organizational skills, Lisa keeps our clients' information updated, and assists them in setting up online access to their accounts. She particularly enjoys interacting with our clients and paying attention to what is going on in their lives.</p>
+									<p>With a background in human resources, payroll and technology, Lisa joined Koss Financial Group in 2004. She is an important member of our client services team, working with the home office to stay up-to-date with compliance operational issues.</p>
+									<p>Lisa lives in Selinsgrove with her husband Dale. She enjoys spending time with her family, including her three children—Brianna, Brett and Jake; and loves to travel.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Jen.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Jen Thomas</h1>
+										<h4>Paraplanner</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>As our paraplanner and data manager, Jennifer helps put together and maintain our clients' investment plans, keeping up with any changes in our clients' needs and goal. She also makes certain that all information is saved and stored appropriately in our database and manages our client communications.</p>
+									<p>Jennifer joined Koss Financial Group, now Tower Wealth Partners, in November 2007 after having moved to Lewisburg from her native Michigan. She attended Kettering University in Flint, Michigan, where she studied mechanical engineering.</p>
+									<p>Jennifer and husband Jim are parents to son Justin, daughter Jordan, and twin daughters Jenne and Julia. Jennifer enjoys the outdoors, gardening, biking, boot camp-style workouts and reading. She is active in her church's music ministry and serves on the local area Young Life committee.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Bev.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Bev Swinehart</h1>
+										<h4>Client Services Associate</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Beverly Swinehart is a well experienced client service associate that recently joined our team. She comes to us from another investment firm and also has over 35 years of experience working with a local accounting firm. She has an A.S.B. degree in Accounting from Thompson Institute.</p>
+									<p>Bev and her husband live in the Lewisburg area. They enjoy doing things outdoors together.</p>
+								</div>
+							</div>
+						</li>
+						<li class="accordion-item">
+							<div class="show-panel">
+								<div class="tema-members-slide-image">
+									<img src="assets/images/Ron.jpg" alt="Team member" />
+								</div>
+								<div class="team-members-info-main">
+									<div class="title-info">
+										<h1>Ron Dreese</h1>
+										<h4>TBD - Designations and Title</h4>
+										<div class="social-member">
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-envelope-square"></i></a>
+											<a href="javascript:void(0);" tabindex="0"><i class="fa fa-linkedin-square"></i></a>
+										</div>
+										<a href="javascript: void(0);" class="standard-btn-type-2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-panel">
+								<div class="team-members-info">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta in urna sit amet feugiat. Donec mattis nulla sit amet est consequat varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis posuere, sem vitae porttitor malesuada, augue nibh pulvinar augue, tincidunt eleifend risus nisi vitae leo. Sed ut arcu eget enim maximus finibus et sed nisl. Aliquam ullamcorper, tellus non dapibus consectetur, dui nibh pellentesque nisi, vitae cursus enim nunc pellentesque turpis. Phasellus sit amet ante eleifend tellus congue eleifend vel quis neque. Aenean nec eleifend tellus, sit amet eleifend lacus. Curabitur iaculis est volutpat lacinia convallis. Sed rutrum metus non mi ultrices, eget vulputate tellus ullamcorper. Praesent eget quam cursus, interdum metus et, rhoncus nulla.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- Mobile Team slides -->
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="mid-section-all our-team-tabs mt-5 mb-5">
+					<h4 class="standard_title mb-3">Our Certifications and What They Mean to You</h4>
+					<div class="tabs mb-4 mobile-hide-tabs">
+						<ul id="tab-links">
+							<li class="active">
+								<a href="#tab-1" class="active" style="padding-top: 25px;">Why work with a CFP</a>
+							</li>
+							<li>
+								<a href="#tab-2">Why an RICP specialist should be important to you</a>
+							</li>
+							<li>
+								<a href="#tab-3">What does AAMS mean to you</a>
+							</li>
+							<li>
+								<a href="#tab-4" style="padding-top: 25px;">Why CIMA</a>
+							</li>
+						</ul>
+						<section id="tab-1" class="active">
+								<div class="tab-content-info">
+									<h4 class="tab-sec-main-title">Why work with a CFP</h4>
+									<p class="mb-4"><img src="assets/images/cfp_logo.png" /> Most people think all financial planners are “certified,” but this isn’t true. Just about anyone can use the title “financial planner.” Only those who have fulfilled CFP Board’s rigorous requirements can call themselves a CFP® professional.</p>
+									<p>CFP® professionals are held to strict ethical standards. What’s more, a CFP® professional must acquire several years of experience related to delivering financial planning services to clients and pass the comprehensive CFP® Certification Exam before they can call themselves a CFP® professional.</p>
+									<p>Financial planning is a dynamic process. Your financial goals may evolve over the years due to shifts in your lifestyle or circumstances such as an inheritance, career change, marriage, house purchase or a growing family. As you begin to consider how best to manage your financial future, you should feel confident knowing that with a CFP® professional, you’re working with someone committed to providing the high standardzzz of financial planning.</p>
+									<div class="toggle-tabs mt-4 mb-4">
+										<h3>CFP® Certification Requirements: The Four E’s</h3>
+										<div class="toggle-tabs-section">
+											<div class="toggle-tabs-inr">
+												<a href="javascript:void(0);"><i class="fa fa-plus"></i> Education</a>
+												<div class="open-discription">
+													<p>CFP® professionals must develop their theoretical and practical financial planning knowledge by completing a comprehensive course of study at a college or university offering a financial planning curriculum approved by CFP Board. Other options for satisfying the education component include submitting a transcript review or previous financial planning-related coursework to CFP Board for review and credit, or showing the attainment of certain professional designations or academic degrees.</p>
+												</div>
+											</div>
+											<div class="toggle-tabs-inr">
+												<a href="javascript:void(0);"><i class="fa fa-plus"></i> Examination</a>
+												<div class="open-discription">
+													<p>CFP® practitioners must pass a comprehensive two-day, six-hour CFP® Certification Examination that tests their ability to apply financial planning knowledge in an integrated format. Based on regular research of what planners do, the exam covers the financial planning process, tax planning, employee benefits and retirement planning, estate planning, investment management and insurance.</p>
+												</div>
+											</div>
+											<div class="toggle-tabs-inr">
+												<a href="javascript:void(0);"><i class="fa fa-plus"></i> Experience</a>
+												<div class="open-discription">
+													<p>CFP® professionals must have three years’ minimum experience in the financial planning process prior to earning the right to use the CFP® certification marks. As a result, CFP® practitioners possess financial counseling skills in addition to financial planning knowledge. </p>
+												</div>
+											</div>
+											<div class="toggle-tabs-inr">
+												<a href="javascript:void(0);"><i class="fa fa-plus"></i> Ethics</a>
+												<div class="open-discription">
+													<p>As a final step to certification, CFP® practitioners agree to abide by a strict code of professional conduct, known as CFP Board’s Code of Ethics and Professional Responsibility, which sets forth their ethical responsibilities to the public, clients and employers. CFP Board also performs a background check during this process, and each individual must disclose any investigations or legal proceedings related to their professional or business conduct.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<p>As a final step to certification, CFP® practitioners agree to abide by a strict code of professional conduct, know as CFP Board's Code of Ethics and professional responsibility, which sets forth their ethical responsibilities to public, clients and employers. CFP also performs a background check during this process, and each individual must disclose any investigations and legal proceedings related to their professional or business conduct.</p>
+									<h3>Ongoing certification requirements</h3>
+									<p>Once certified, CFP® practitioners are required to miantain technical competence and fulfill ethical obligations. Every tow years, they must complete a minimum 30 hours of continuing eduction to stay current with developments in the financial planning profession and better serve clients. Two of these hours are spent studing or disussing CFP board's Code of Ethics or Practice standards. In addition to the biennial continuing education requirement, all CFP® practitioners voluntarily disclose any publi, civil, criminal or disciplinary action that may have been taken against them during the previous two years as part of the renewal process</p>
+									<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+								</div>
+						</section>
+						<section id="tab-2">
+							<div class="tab-content-info">
+								<h4 class="tab-sec-main-title">Why an RICP specialist should be important to you</h4>
+								<p class="mb-4"><img src="assets/images/RICP.png" alt="CFP" /> RICP® designation holders report having more confidence in their ability to serve senior clients, have a broader perspective of the field, and immediately use what they learn in their professional roles.</p>
+								<p>The program enables you to make better, more informed decision-making regarding retirement financial planning. Research from Morningstar found that better decision making can increase retirement income by as much as 31 percent. Demand for retirement expertise is strong: Current projections indicate that 10,000 Baby Boomers retire daily, a trend expected to continue through 2030.</p>
+								<p>By serving their clients better and growing their business, RICP® designation holders do well by doing good.</p>
+								<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+							</div>
+						</section>
+						<section id="tab-3">
+							<div class="tab-content-info">
+								<h4 class="tab-sec-main-title">What does AAMS mean to you</h4>
+								<p class="mb-4"><img src="assets/images/aams.jpg" /> Accredited Asset Management Specialist (AAMS) is a professional designation awarded by the College for Financial Planning (CFP) to financial professionals who successfully complete a self-study program, pass an exam, and agree to comply with a code of ethics.</p>
+								<p>Successful applicants earn the right to use the AAMS designation with their names for two years, which can improve job opportunities, professional reputation, and pay.</p>
+								<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+							</div>
+						</section>
+						<section id="tab-4">
+							<div class="tab-content-info">
+								<h4 class="tab-sec-main-title">Why CIMA</h4>
+								<p class="mb-4"><img src="assets/images/CIMA-logo.png" /> There are hundreds of credentials in the financial services marketplace—with varying degrees of credibility— creating an alphabet soup of convoluted acronyms and information overload. So why should you work with a CIMA professional? Not all financial credentials are created equal, and very few meet the high standards of being accredited by a third party.</p>
+								<p>The Certified Investment Management Analyst. (CIMAss) certification demonstrates that individuals have completed and adhered to the "four Es": experience, education, examination and ethics. In order to earn CIMA certification, candidates must</p>
+								<ul class="mb-3">
+									<li>Demonstrate at least three years of broad experience in the field of investment management consulting or financial services by the completion of certification.</li>
+									<li>Pass an extensive background check and qualification examination.</li>
+									<li>Complete an education program at The University of Chicago Booth School of Business, or The Wharton School, University of Pennsylvania.</li>
+									<li>Successfully pass a comprehensive certification examination.</li>
+									<li>Agree to adhere to an ethical code of professional responsibility and to complete 40 hours of continuing education every two years, including two hours of ethics continuing education.</li>
+								</ul>
+								<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+							</div>	
+						</section>
+					</div>
+
+					<!-- Mobile Tabs section-->
+					<div class="tabs mobile-show-tabs">
+						<ul class="accordion team-logos-tabs">
+							<li class="accordion-item is-active">
+								<a href="javascript:void(0);" class="accordion-thumb">Why work with a CFP</a>
+								<div class="accordion-panel">
+									<div class="tab-content-info">
+										<p class="mb-4"><img src="assets/images/cfp_logo.png" /> Most people think all financial planners are “certified,” but this isn’t true. Just about anyone can use the title “financial planner.” Only those who have fulfilled CFP Board’s rigorous requirements can call themselves a CFP® professional.</p>
+										<p>CFP® professionals are held to strict ethical standards. What’s more, a CFP® professional must acquire several years of experience related to delivering financial planning services to clients and pass the comprehensive CFP® Certification Exam before they can call themselves a CFP® professional.</p>
+										<p>Financial planning is a dynamic process. Your financial goals may evolve over the years due to shifts in your lifestyle or circumstances such as an inheritance, career change, marriage, house purchase or a growing family. As you begin to consider how best to manage your financial future, you should feel confident knowing that with a CFP® professional, you’re working with someone committed to providing the high standardzzz of financial planning.</p>
+										<div class="toggle-tabs mt-4 mb-4">
+											<h3>CFP® Certification Requirements: The Four E’s</h3>
+											<div class="toggle-tabs-section">
+												<div class="toggle-tabs-inr">
+													<a href="javascript:void(0);">Education</a>
+												</div>
+												<div class="toggle-tabs-inr">
+													<a href="javascript:void(0);">Examination</a>
+												</div>
+												<div class="toggle-tabs-inr">
+													<a href="javascript:void(0);">Experience</a>
+												</div>
+												<div class="toggle-tabs-inr">
+													<a href="javascript:void(0);">Ethics</a>
+												</div>
+											</div>
+										</div>
+										<p>As a final step to certification, CFP® practitioners agree to abide by a strict code of professional conduct, know as CFP Board's Code of Ethics and professional responsibility, which sets forth their ethical responsibilities to public, clients and employers. CFP also performs a background check during this process, and each individual must disclose any investigations and legal proceedings related to their professional or business conduct.</p>
+										<h3>Ongoing certification requirements</h3>
+										<p>Once certified, CFP® practitioners are required to miantain technical competence and fulfill ethical obligations. Every tow years, they must complete a minimum 30 hours of continuing eduction to stay current with developments in the financial planning profession and better serve clients. Two of these hours are spent studing or disussing CFP board's Code of Ethics or Practice standards. In addition to the biennial continuing education requirement, all CFP® practitioners voluntarily disclose any publi, civil, criminal or disciplinary action that may have been taken against them during the previous two years as part of the renewal process</p>
+										<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="accordion-item">
+								<a href="javascript:void(0);" class="accordion-thumb">Why an RICP specialist should be important to you</a>
+								<div class="accordion-panel">
+									<div class="tab-content-info">
+										<p class="mb-4"><img src="assets/images/RICP.png" alt="CFP" /> RICP® designation holders report having more confidence in their ability to serve senior clients, have a broader perspective of the field, and immediately use what they learn in their professional roles.</p>
+										<p>The program enables you to make better, more informed decision-making regarding retirement financial planning. Research from Morningstar found that better decision making can increase retirement income by as much as 31 percent. Demand for retirement expertise is strong: Current projections indicate that 10,000 Baby Boomers retire daily, a trend expected to continue through 2030.</p>
+										<p>By serving their clients better and growing their business, RICP® designation holders do well by doing good.</p>
+										<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="accordion-item">
+								<a href="javascript:void(0);" class="accordion-thumb">What does AAMS mean to you</a>
+								<div class="accordion-panel">
+									<div class="tab-content-info">
+										<p class="mb-4"><img src="assets/images/aams.jpg"> Accredited Asset Management Specialist (AAMS) is a professional designation awarded by the College for Financial Planning (CFP) to financial professionals who successfully complete a self-study program, pass an exam, and agree to comply with a code of ethics.</p>
+										<p>Successful applicants earn the right to use the AAMS designation with their names for two years, which can improve job opportunities, professional reputation, and pay.</p>
+										<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="accordion-item">
+								<a href="javascript:void(0);" class="accordion-thumb">Why CIMA</a>
+								<div class="accordion-panel">
+									<div class="tab-content-info">
+										<h4 class="tab-sec-main-title">Why CIMA</h4>
+										<p class="mb-4"><img src="assets/images/CIMA-logo.png"> There are hundreds of credentials in the financial services marketplace—with varying degrees of credibility— creating an alphabet soup of convoluted acronyms and information overload. So why should you work with a CIMA professional? Not all financial credentials are created equal, and very few meet the high standards of being accredited by a third party.</p>
+										<p>The Certified Investment Management Analyst. (CIMAss) certification demonstrates that individuals have completed and adhered to the "four Es": experience, education, examination and ethics. In order to earn CIMA certification, candidates must</p>
+										<ul class="mb-3">
+											<li>Demonstrate at least three years of broad experience in the field of investment management consulting or financial services by the completion of certification.</li>
+											<li>Pass an extensive background check and qualification examination.</li>
+											<li>Complete an education program at The University of Chicago Booth School of Business, or The Wharton School, University of Pennsylvania.</li>
+											<li>Successfully pass a comprehensive certification examination.</li>
+											<li>Agree to adhere to an ethical code of professional responsibility and to complete 40 hours of continuing education every two years, including two hours of ethics continuing education.</li>
+										</ul>
+										<a href="contact_us.html" class="standard-btn-type-2 mt-4">Read More</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Mobile Tabs section -->
+
+				</div>
+			</div>
+			
+		</section>
+		
+		
+		<section class="lets-talk-section-main pt-3 pb-3">
+			<div class="lets-talk-section pt-3 pb-3">
+				<div class="container">
+					<div class="lets-talk-title">
+						<h3>Plan Today for a Better Tomorrow</h3>
+						<a class="lets-talk-btn standard-btn-type-2" href="contact_us.html">Let's Talk</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footer-top mt-7 mb-7">
+				<div class="tower-partner-contact">
+					<h4>Connect with us</h4>
+					<p class="mt-4">Want to know more about how we can help you? We’d love to hear from you.</p>
+					<div class="social-icons">
+						<a href="javascript:void(0);">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						<a href="javascript:void(0);">
+							<i class="fa fa-twitter-square"></i>
+						</a>
+					</div>
+				</div>
+				<div class="about-tower-partner">
+					<p><span>Tower Wealth Partners:</span> 1000 Market Street // Lewisburg, PA 17837 | T 570.524.7200 | F 570.524.7211 | Maps and Directions</p>
+					<p class="mobile-footer-p"><span>Tower Wealth Partners:</span> 1000 Market Street // Lewisburg, PA 17837 <br> T 570.524.7200 | F 570.524.7211 <br> Maps and Directions</p>
+					<p class="mt-4">Raymond James financial advisors may only conduct business with residents of the states and/or jurisdictions for which they are properly registered. Therefore, a response to a request for information may be delayed. Please note that not all of the investments and services mentioned are available in every state. Investors outside of the United States are subject to securities and tax regulations within their applicable jurisdictions that are not addressed on this site. Contact your local Raymond James office for information and availability.</p> 
+					<p>Links are being provided for information purposes only. Raymond James is not affiliated with and does not endorse, authorize or sponsor any of the listed websites or their respective sponsors. Raymond James is not responsible for the content of any website or the collection or use of information regarding any website's users and/or members.</p>
+					<p>Investment advisory services offered through Raymond James Financial Services Advisors, Inc. Tower Wealth Partners is not a registered broker/dealer and is independent of Raymond James Financial Services.</p>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<p>© 2020 Securities offered through Raymond James Financial Services, Inc., member FINRA / SIPC | Legal Disclosures | Privacy, Security & Account Protection | Terms of Use</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Anime Js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/custom_style.js" type="text/javascript"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
+
+	<script>
+		new WOW().init();
+		</script>
+
+	<!-- slick slider Js-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="assets/js/slick_slider.js" type="text/javascript"></script>
+
+</body>
+
+</html>
